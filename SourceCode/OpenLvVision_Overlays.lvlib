@@ -12,6 +12,7 @@
 		<Item Name="ColorGroup.ctl" Type="VI" URL="../TypeDefs/ColorGroup.ctl"/>
 		<Item Name="PointI32.ctl" Type="VI" URL="../TypeDefs/PointI32.ctl"/>
 		<Item Name="DrawingMode.ctl" Type="VI" URL="../TypeDefs/DrawingMode.ctl"/>
+		<Item Name="Angles.ctl" Type="VI" URL="../TypeDefs/Angles.ctl"/>
 	</Item>
 	<Item Name="OverlayPoints" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>

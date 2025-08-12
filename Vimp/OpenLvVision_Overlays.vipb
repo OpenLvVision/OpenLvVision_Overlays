@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2025-06-01 19:48:40" Creator="lukas" Comments="" ID="c157b42dd231df7d3e898fbb5dddc867">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-04-25 21:00:44" Modified_Date="2025-08-12 20:00:01" Creator="lukas" Comments="" ID="4bdf831e22ed32e4e1bc28e4b03294ef">
   <Library_General_Settings>
     <Package_File_Name>OpenLvVision_lib_OpenLvVision_Overlays</Package_File_Name>
-    <Library_Version>1.0.0.1</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\SourceCode</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -44,7 +44,10 @@ Third party copyrights:
       <Copyright>©Copyright (c) 2025, Lukas Kamleitner </Copyright>
       <Packager>Lukas Kamleitner</Packager>
       <URL>http://www.openlvvision.org/</URL>
-      <Release_Notes/>
+      <Release_Notes>BugFix:
+OverlayBitmap: Error in is now optional
+OverlayArc: Polymorphic vi is now working
+OverlayRoi: Added group control</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -200,7 +203,7 @@ Third party copyrights:
       <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>true</Edit_VI_Description>
+      <Edit_VI_Description>false</Edit_VI_Description>
       <Text_to_Add>Thirdparty:
 © 2000–2025 National Instruments Corporation. All rights reserved.
 
@@ -410,7 +413,7 @@ Third party copyrights are property of their respective owners.</Text_to_Add>
         <Path>..\SourceCode\OverlayText.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFF6E538C2DA85FB304E24EDD982C0B1</GUID>
+      <GUID>D30639D02ACA03D49454668B822FAD46</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
